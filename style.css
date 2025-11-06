@@ -9,6 +9,12 @@
     color: white;
     padding: 50px;
     justify-content: space-between;
+    font-family: serif;
+}
+
+.logo {
+    font-size: larger;
+    font-family: serif;
 }
 
 .topbar{
@@ -18,6 +24,7 @@
     padding: 5px 20px;
     justify-content: space-between;
     align-items: center;
+    font-family: serif;
     
 }
 
@@ -59,6 +66,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
     gap: 10px;
     background-color: #336bac;
     padding: 15px;
@@ -67,15 +75,18 @@ a:focus {
 .search-input{
     width: 300px;
     padding: 10px 15px;
+    color: white;
     border: none;
     border-radius: 25px;
+    background-color: rgb(123, 174, 229);
     outline: none;
+    font-family: serif;
     font-size: 16px;
     transition: all 0.3 ease;
 }
 
 .search-input:focus {
-    box-shadow: 0 0 8px rgba(13, 110, 253, 0.6);
+    box-shadow: 0 0 8px rgba(4, 10, 20, 0.6);
 }
 
 .search-btn {
@@ -87,6 +98,7 @@ a:focus {
     cursor: pointer;
     font-weight: 500;
     transition: all 0.3s ease;
+    font-family: serif;
 }
 
 .search-btn:hover {
