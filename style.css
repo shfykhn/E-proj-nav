@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+.navbar{
+    background-color: #336bac;
+    color: white;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.topbar{
+    background-color: rgb(123, 174, 229);
+    display: flex;
+    color: white;
+    padding: 5px 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.contact{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;   
+}
+
+.email{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+    a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:focus {
+    color: red;
+}
+
+.link {
+    color: rgb(167, 16, 16);
+}
+
+.link:focus {
+    color: red;
+}
+
+.link.active {
+    color: blue;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #336bac;
+    padding: 15px;
+}
+
+.search-input{
+    width: 300px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3 ease;
+}
+
+.search-input:focus {
+    box-shadow: 0 0 8px rgba(13, 110, 253, 0.6);
+}
+
+.search-btn {
+    background: linear-gradient(90deg,#0d6efd, #007bff);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.search-btn:hover {
+    background: linear-gradient(90deg, #007bff, #0dcaf0);
+    transform: translateY(-2px);
+    box-shadow:  0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/* 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #336bac;
+    color: white;
+}
+
+.topbar{
+    background-color: rgb(86, 13, 13);
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact{
+    color: white;
+   
+}
+
+.email{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+} */

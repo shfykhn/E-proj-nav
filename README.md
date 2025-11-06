@@ -1,2 +1,2 @@
-# E-proj-nav
-e-project navbar
+# E-Project
+Navbar
