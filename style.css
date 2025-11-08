@@ -5,20 +5,23 @@
 }  
 
 .navbar{
-    background-color: #336bac;
+    background-color: rgb(169, 169, 252);
     color: white;
-    padding: 50px;
+    padding: 20px;
     justify-content: space-between;
     font-family: serif;
+    height: 80px;
 }
 
-.logo {
-    font-size: larger;
-    font-family: serif;
+.logo1000{
+    width: 130px;
+    height: 130px;;
 }
+
+    
 
 .topbar{
-    background-color: rgb(123, 174, 229);
+    background-color: rgb(15, 15, 82);
     display: flex;
     color: white;
     padding: 5px 20px;
@@ -75,7 +78,7 @@ a:focus {
     justify-content: center;
     color: white;
     gap: 10px;
-    background-color: #336bac;
+    background-color: rgb(169, 169, 252);
     padding: 15px;
 }
 
@@ -119,34 +122,7 @@ background-color: transparent;
 }
 
 
-
-/* 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#logo{
+    height: 5px;
 }
 
-.navbar{
-    background-color: #336bac;
-    color: white;
-}
-
-.topbar{
-    background-color: rgb(86, 13, 13);
-    padding: 8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.contact{
-    color: white;
-   
-}
-
-.email{
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-} */
