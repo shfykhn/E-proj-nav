@@ -166,30 +166,28 @@ background-color: transparent;
     width: 100%;
     height: 70vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .content-left{
     width: 500px;
     height: 500px;
-    padding: 50px;
-    padding-top: 80px;
+    text-align: left;
+    padding-top: 100px;
 }
 .content-left h4{
     color: rgba(88, 19, 19, 0.658);
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
-    margin: 20px;
+ 
 }
 .content-left h1{
     color:rgb(15, 15, 82);
     font-size: 55px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 20px;
+
 }
 .content-left p{
     color: black;
-    margin: 20px;
+
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .content-left button{
@@ -199,69 +197,63 @@ background-color: transparent;
     font-weight: bolder;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: none;
-    border-radius: 50px;
-    width: 120px;
+    border-radius: 10px;
+    width: 150px;
     margin: 10px;
 }
 
 .content-left button:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(15, 15, 82);
-    transition: 0.5s;
+    transition: 1s;
+    border-radius: 50px;
 }
 
 .content-right{
-    width: 500px;
-    height: 500px;
-    padding: 50px;
-    padding-top: 80px;
-}
-.aboutme{
-    padding: 50;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-.card{
-    width: 1000px;
-    height: 200px;
-    background-color: rgb(40, 161, 182);
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 3px 5px 5px 3px rgb(15, 12, 12);
-}
-.card button{
-    background-color: black;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-weight: bolder;
-    border: none;
-    border-radius: 50px;
-    width: 120px;
-}
-.card:hover{
-    background-color: rgb(169, 169, 252);
-    color: aliceblue;
-    transition: 0.5s;
+    height: 50px;
+    width: 50px;
+    text-align: right;
 
 }
-.card button:hover{
-    background-color:  rgb(15, 15, 82);
-    color: white;
-    transition: 0.5s;
+
+.line{
+    background-color: black;
 }
-.card h2{
-    margin-bottom: 15px;
-}
-.all-cards{
-    background-color:rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.aboutme{
+    margin: 100;
+    text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.aboutme h1{
+    color:rgb(15, 15, 82);
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px;
+}
+
+.aboutme button{
+    background-color: rgb(169, 169, 252);
+    padding: 10px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    margin: 10px;
+}
+
+.aboutme button:hover{
+    background-color:  rgb(15, 15, 82);
+    color: white;
+    transition: 1s;
+    border-radius: 50px;
+}
+
+
 
 .otherskills{
     padding: 50px;
@@ -307,13 +299,16 @@ td:hover{
 }
 
 .footer{
-    background-color: bisque;
+    background-color:  rgb(15, 15, 82);
     padding: 15px;
+    color: white;
+    font-size: large;
     text-align: center;
 }
 
 .icons{
-    background-color: rgb(7, 97, 170);
+    background-color:  rgb(15, 15, 82);
+    color: white;
     padding: 15px;
     text-align: center;
 }
@@ -329,3 +324,5 @@ td:hover{
     height: auto;
     transition: 0.5s;
 }
+
+
